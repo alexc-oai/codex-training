@@ -3,6 +3,7 @@ node_modules/
 .codex/
 output/
 docs/plans/
+codex-101-agenda-talktrack-prd.md
 dist/
 build/
 coverage/
