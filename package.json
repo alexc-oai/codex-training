@@ -1,0 +1,14 @@
+{
+  "name": "codex-quest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "test:e2e": "RUN_E2E=1 node --test tests/guide-flow.e2e.test.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.58.2"
+  }
+}

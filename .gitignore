@@ -1,0 +1,9 @@
+node_modules/
+.playwright/
+.codex/
+output/
+dist/
+build/
+coverage/
+*.log
+.DS_Store
