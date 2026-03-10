@@ -2,6 +2,7 @@ node_modules/
 .playwright/
 .codex/
 output/
+docs/plans/
 dist/
 build/
 coverage/
