@@ -32,36 +32,10 @@ You need:
 - A copy of this repo
 - Node.js installed
 
-Optional:
-- GitHub Desktop, if you prefer clicking instead of using terminal commands
-- Git, if you want to clone from Terminal or PowerShell
+You also need:
+- Git installed
 
 ## Clone The Repo
-
-### Recommended: GitHub Desktop (Mac or Windows)
-
-This is the easiest path for people who do not normally code.
-
-1. Install GitHub Desktop.
-2. Sign in to GitHub with the account that has access to this repo.
-3. In GitHub Desktop, choose `File` -> `Clone repository`.
-4. Select the `URL` tab.
-5. Paste this repo URL:
-
-```text
-https://github.com/alexc-oai/codex-training.git
-```
-
-6. Choose where you want the folder to live on your computer.
-7. Click `Clone`.
-8. In GitHub Desktop, click `Repository` -> `Open in Terminal`.
-9. Run:
-
-```bash
-npm start
-```
-
-10. Open `http://127.0.0.1:4173`
 
 ### Mac: Terminal Steps
 
@@ -133,11 +107,13 @@ http://127.0.0.1:4173
 
 Common reasons:
 - Git is not installed
-- You are not signed into GitHub
+- You are not signed into GitHub in your browser or Git credential helper
 - Your GitHub account does not have access to the repo
 
-Simplest fix:
-- Use GitHub Desktop instead of Terminal/PowerShell
+Quick checks:
+- Run `git --version` to confirm Git is installed
+- Open the repo URL in your browser to confirm your account has access
+- Then try `git clone` again
 
 ## What It Includes
 
